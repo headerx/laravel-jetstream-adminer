@@ -6,7 +6,7 @@ git clone git@github.com:headerx/laravel-jetstream-adminer.git
 ```
 Configure Database credentials by copying env.example to .env and editing as appropriate.
 ```bash
-php -r \"file_exists('.env') || copy('.env.example', '.env');\"
+php -r "file_exists('.env') || copy('.env.example', '.env');"
 ```
 create an adminer database
 
