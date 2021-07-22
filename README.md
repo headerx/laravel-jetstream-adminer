@@ -11,7 +11,7 @@ php -r "file_exists('.env') || copy('.env.example', '.env');"
 create an adminer database
 
 ```bash
-mysql -u root -p "create database adminer;"
+mysql -u root -p -e "create database adminer;"
 ```
 
 run migrations and seed
