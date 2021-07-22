@@ -31,7 +31,7 @@ login as `admin@admin.com` with password `secret`
 
 Note
 You may also want to edit the value of the HOME constant in `app/Providers/RouteServiceProvider.php` to match your details.
-Query String (default) is for auto login with a database server running on localhost, and a user of root
+Query String (default) is for auto login (to adminer) with a database server running on localhost, and a user of root
 
 ```php
     /**
