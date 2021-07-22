@@ -13,7 +13,10 @@ create an adminer database
 ```bash
 mysql -u root -p -e "create database adminer;"
 ```
-
+install
+```bash
+composer install
+```
 run migrations and seed
 ```bash
 php artisan migrate:fresh --seed
